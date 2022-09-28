@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: TTNormsPro-Bold;
+  src: url(./fonts/TTNormsPro-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: TTNormsPro-ExtraLight;
+  src: url(./fonts/TTNormsPro-ExtraLight.ttf);
+  font-weight: light;
+}
+body {
+  font-family: TTNormsPro-ExtraLight;
+  font-size: 16px;
+  color: rgb(14, 14, 14);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+.cantainer {
+  background-color: rgb(185, 217, 236);
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 15px;
+}
+@media screen and (max-width: 700px), (max-height: 500px) {
+  .cantainer {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+.cantainer h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin-bottom: 100px;
+  font-size: 32px;
+  font-family: TTNormsPro-Bold;
+}
+.cantainer h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family: TTNormsPro-Bold;
+}
+.cantainer h4 a {
+  text-decoration: none;
+}
+.cantainer h4 a:hover {
+  color: rgb(18, 14, 224);
+}
+.cantainer main {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+.cantainer main .card-form .card-list {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.cantainer main .card-form .card-list .front {
+  width: 350px;
+  height: 225px;
+  background-color: bisque;
+  perspective: 1000px;
+  padding: 15px;
+  position: absolute;
+  border-radius: 25px;
+  top: 185px;
+  box-shadow: 0 10px 40px 0 rgba(14, 42, 90, 0.55);
+}
+.cantainer main .card-form .card-list .front h2 {
+  font-size: 24px;
+  font-family: TTNormsPro-Bold;
+}
+.cantainer main .card-form .card-list .front .num-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.cantainer main .card-form .card-list .front .info {
+  justify-content: center;
+  align-items: center;
+}
+.cantainer main .card-form .card-list .front .info h6 {
+  font-weight: bold;
+  font-family: TTNormsPro-Bold;
+}
+.cantainer main .card-form .card-list .front .info #cvv-border {
+  width: 100px;
+  height: 28px;
+}
+.cantainer main .card-form .card-list .front .info .img-bank {
+  height: 70px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.cantainer main .card-form .card-list .front .info .img-bank img {
+  width: 60px;
+}
+.cantainer main .card-form .card-item {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 15px;
+  color: rgb(87, 87, 87);
+}
+.cantainer main .card-form .card-item .items {
+  margin-top: 80px;
+  padding: 25px;
+}
+.cantainer main .card-form .card-item .items label {
+  padding-top: 20px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.cantainer main .card-form .card-item .items input {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  height: 48px;
+  border: 0.5px solid #ced4da;
+}
+.cantainer main .card-form .card-item .items .form-select {
+  background-color: whitesmoke;
+  height: 48px;
+}
+.cantainer main .card-form .card-item .items .form-select option {
+  height: 48px;
+}
+.cantainer main .card-form .card-item .items button {
+  margin-top: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=master.css.map */
