@@ -7,5 +7,5 @@ You Should correct Number. The card change color.
 - UI Designer and Developer: Homa BahramParvar
 - Technologies Used - Html , CSS, js
 
-- ![Card-bank](https://github.com/Humayb/Card-Bank/blob/main/Card-Bank.jpg)
+![Card-bank](https://github.com/Humayb/Card-Bank/blob/main/Card-Bank.jpg)
 
